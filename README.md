@@ -14,10 +14,11 @@ This project is a minimal template designed for quickly developing new plugins f
 - **User Interface**: Includes an example dialog window that opens when clicked.
 
 ### How to Use?
-1. **Copy Files**: Place this folder into the `plugins` directory of the System Informer source code.
-2. **Include in Solution**: Open the `Plugins.sln` file with Visual Studio. (This template is already automatically included).
-3. **Build**: Right-click the `TestPlugin` project in Visual Studio and select "Build".
-4. **Test**: Run System Informer. You will see the `Test Plugin` option under the `Tools` menu.
+1. **Copy Files**: Place this folder into the `plugins` directory of your System Informer source code.
+2. **Include in Solution**: Open the `Plugins.sln` file with Visual Studio.
+3. **Add Project**: Right-click the Solution, select **Add > Existing Project...**, and choose `TestPlugin.vcxproj`.
+4. **Build**: Right-click the `TestPlugin` project and select **Build**.
+5. **Test**: Run System Informer. You will see the `Test Plugin` option under the `Tools` menu.
 
 ### Project Structure
 - `main.c`: Main entry point, menu registrations, and dialog procedures.
@@ -38,10 +39,11 @@ Bu proje, [System Informer](https://github.com/winsiderss/systeminformer) için 
 - **Kullanıcı Arayüzü**: Tıklandığında açılan örnek bir dialog penceresi içerir.
 
 ### Nasıl Kullanılır?
-1. **Dosyaları Kopyalayın**: Bu klasörü System Informer kaynak kodundaki `plugins` dizinine yerleştirin.
-2. **Çözüme Dahil Edin**: `Plugins.sln` dosyasını Visual Studio ile açın. (Bu şablon zaten otomatik olarak eklenmiştir).
-3. **Derleyin (Build)**: Visual Studio üzerinden `TestPlugin` projesine sağ tıklayıp "Build" deyin.
-4. **Test Edin**: System Informer'ı çalıştırın. `Tools` menüsünde `Test Plugin` seçeneğini göreceksiniz.
+1. **Dosyaları Kopyalayın**: Bu klasörü System Informer kaynak kodunuzdaki `plugins` dizinine yerleştirin.
+2. **Çözüme Dahil Edin**: Visual Studio'da `Plugins.sln` dosyasını açın.
+3. **Projeyi Ekleyin**: Solution'a (Çözüm) sağ tıklayın, **Add > Existing Project...** (Ekle > Mevcut Proje...) seçeneğini seçin ve `TestPlugin.vcxproj` dosyasını seçin.
+4. **Derleyin (Build)**: `TestPlugin` projesine sağ tıklayıp "Build" deyin.
+5. **Test Edin**: System Informer'ı çalıştırın. `Tools` menüsünde `Test Plugin` seçeneğini göreceksiniz.
 
 ### Proje Yapısı
 - `main.c`: Ana giriş noktası, menü kayıtları ve dialog işlemleri.
@@ -51,5 +53,5 @@ Bu proje, [System Informer](https://github.com/winsiderss/systeminformer) için 
 - `TestPlugin.vcxproj`: Visual Studio proje dosyası.
 
 ---
-> [!NOTE]
-> This plugin is already integrated into `Plugins.sln`. You just need to build it. / Bu plugin `Plugins.sln` dosyasına halihazırda entegre edilmiştir. Sadece derlemeniz yeterlidir.
+> [!TIP]
+> Make sure to build the project in the same architecture (x86/x64) as your System Informer build. / Projeyi, System Informer derlemenizle aynı mimaride (x86/x64) derlediğinizden emin olun.
