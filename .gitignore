@@ -1,0 +1,14 @@
+# Visual Studio Junk
+.vs/
+obj/
+bin/
+*.vcxproj.user
+*.suo
+*.user
+*.sln.docstates
+
+# Build Artifacts
+*.dll
+*.pdb
+*.lib
+*.exp
